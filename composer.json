@@ -1,6 +1,6 @@
 {
   "name": "christianbarkowsky/contao-basic-installation",
-  "description": "My contao basic setting",
+  "description": "contao basic setting",
   "keywords": [ "contao", "start", "installation" ],
   "type": "contao-module",
   "license": "LGPL-3.0+",
@@ -20,8 +20,9 @@
   "require": {
     "php": ">=5.4",
     "contao/core": ">=3.5,<3.6-dev",
+    "jrgregory/m17-sticky-backend-footer": "~2",
     "terminal42/contao-easy_themes": "~2",
-    "jrgregory/m17-sticky-backend-footer": "~2"
+    "terminal42/contao-ce-access": "~2"
   },
   "prefer-stable": true,
   "minimum-stability": "dev"
