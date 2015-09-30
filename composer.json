@@ -1,0 +1,28 @@
+{
+  "name": "christianbarkowsky/contao-basic-installation",
+  "description": "My contao basic setting",
+  "keywords": [ "contao", "start", "installation" ],
+  "type": "contao-module",
+  "license": "LGPL-3.0+",
+  "authors": [
+    {
+      "name": "Christian Barkowsky",
+      "email": "hallo@christianbarkowsky.de",
+      "homepage": "http://www.christianbarkowsky.de",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "hallo@christianbarkowsky.de",
+    "issues": "https://github.com/christianbarkowsky/contao-basic-installation/issues",
+    "source": "https://github.com/christianbarkowsky/contao-basic-installation"
+  },
+  "require": {
+    "php": ">=5.4",
+    "contao/core": ">=3.5,<3.6-dev",
+    "terminal42/contao-easy_themes": "~2",
+    "jrgregory/m17-sticky-backend-footer": "~2"
+  },
+  "prefer-stable": true,
+  "minimum-stability": "dev",
+}
